@@ -45,3 +45,9 @@ class Personel extends Kisi {
 
 let kisi: Kisi = new Kisi();
 // kisi.
+
+let k2: Kisi = new Musteri();
+// kisi2.satisYap();
+let k3: Musteri = k2 as Musteri;
+k3 = <Musteri>k2;
+k3.satisYap();
